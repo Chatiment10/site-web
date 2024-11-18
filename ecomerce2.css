@@ -1,0 +1,380 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+/*debut de l entete*/
+
+
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+header input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+header marquee{
+    background-color: rgba(178, 174, 174, 0.629);
+    height: 10%;
+    margin-bottom: 20px;
+}
+header marquee p{
+    font-size: 60px;
+    color: #f39c12;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+.presentation{
+    margin-left: 15px;
+    width: 40%;
+    height: 627px;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    display: block;
+    overflow-y: scroll;
+    
+}
+
+.presentation p{
+    margin: auto;
+    font-size: 1em;
+    padding: 40px;
+    scrollbar-gutter: 5px;
+    scrollbar-width: 5px;
+}
+
+.banner {
+    padding: 15px;
+    margin: auto;
+    height: 627px;
+    width: 50%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    background-image: url("e-commerce/maillot-exterieur-equipe-feminine-allemagne-2023-728x728.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+    
+}
+
+
+.banner button {
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+/*fin de l entete*/
+
+/*menu*/
+
+section.menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: #dfdcdc;
+    padding: 10px 0;
+    margin: 10px 0;
+    box-shadow: 0 0 10px  rgb(0, 0, 0);
+}
+
+.menu-item {
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+}
+
+.menu-item button {
+    padding: 10px 20px;
+    background-color: #ff8000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*category*/
+
+section.category {
+    display: flex;
+    justify-content: space-around;
+    background-color: #dfdcdc;
+    padding: 10px 0;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.category {
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+}
+
+.category button {
+    padding: 10px 20px;
+    background-color: #ff8000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+/* section vente flash */
+
+section.flash-sales {
+    background-color:  #1c7cbd;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.flash-sales h3 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.flash-item {
+    display: inline-block;
+    width: 43%;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.flash-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+.flash-item img hover {
+    transform: scale(1.1);
+}
+.flash-item button {
+    padding: 7px 15px;
+    background-color:  #ff8000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section.picks {
+    background-color: #ff8000;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+/*Section Maillots*/
+
+section.Maillots {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    padding: 10px 0;
+    margin: 20px 0;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+.pick-item2{
+    background: linear-gradient(white , gray);
+    background: no-repeat;
+}
+
+.pick-item {
+    display: inline-block;
+   
+    text-align: center;
+    margin-right: 10px;
+}
+
+
+.pick-item img {
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    flex-basis: 200;
+    flex-grow: 1;
+    box-shadow: 0 0 20px rgb(26, 25, 25);
+    
+}
+.pick-item img:hover {
+    transform: scale(1.1);
+}
+.pick-item button {
+    padding: 7px 15px;
+    background-color: #ff8000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+/*Section Godasses*/
+
+section.Godasses {
+    display: flex;
+    justify-content: space-around;
+    background-color: #c4c2c2;
+    padding: 10px 0;
+    margin: 20px 0;
+    box-shadow: 2px 2px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pick-item {
+    display: inline-block;
+    width: 23%;
+    text-align: center;
+    margin-right: 10px;
+}
+.pick-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+.pick-item img:hover {
+    transform: scale(1.1);
+}
+.pick-item button {
+    padding: 7px 15px;
+    background-color: #ff8000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*Section Accessoires*/
+
+section.Accessoires {
+    display: flex;
+    justify-content: space-around;
+    background-color: #c4c2c2;
+    padding: 10px 0;
+    margin: 20px 0;
+    box-shadow: 2px 2px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pick-item {
+    display: inline-block;
+    width: 23%;
+    text-align: center;
+    margin-right: 10px;
+}
+.pick-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+/*Section Equipements*/
+
+section.Equipements {
+    display: flex;
+    justify-content: space-around;
+    background-color: #c4c2c2;
+    padding: 10px 0;
+    margin: 20px 0;
+    box-shadow: 2px 2px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pick-item {
+    display: inline-block;
+    width: 23%;
+    text-align: center;
+    margin-right: 10px;
+}
+.pick-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+.pick-item button {
+    padding: 7px 15px;
+    background-color: #ff8000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* partie footer*/
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #c4c2c2;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+.footer-item {
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+}
+
+.footer-item button{
+    padding: 7px 15px;
+    background-color: #ff8000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+section.footer{
+    background-color: #333;
+    height: 300px;
+    margin: auto;
+}
+section.footer h1{
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    padding-bottom: 5px;
+}
+section.footer p{
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    text-align: center;
+    border-bottom: rgb(0, 0, 0) 1px solid;
+}
+
+
+/* responsive */
+@media (max-width:768px)

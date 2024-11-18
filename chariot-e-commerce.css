@@ -1,0 +1,78 @@
+body{
+    text-align: center;
+}
+h2{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.chariot {
+    background-color : #f0f0f0 ;
+    padding : 20px ;
+    margin : 20px ;
+    border : 1px solid #ddd ;
+    }
+    
+.chariot h2 {
+    text-align : center ;
+    }
+    
+.chariot ul {
+    list-style : none ;
+    padding : 0 ;
+    margin : 0 ;
+    }
+    
+.chariot li {
+    margin-bottom : 20px ;
+    }
+    
+.chariot img {
+    width : 50px ;
+    height : 50px ;
+    margin-right : 10px ;
+    }
+    
+.chariot button {
+    background-color : #f39c12;
+    color : #fff ;
+    padding : 10px 20px ;
+    border : none ;
+    border-radius : 5px ;
+    cursor : pointer ;
+    }
+    
+.chariot button:hover {
+    background-color : #f39c12;
+    }
+
+    /* partie footer*/
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+.footer-item {
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+}
+
+.footer-item button{
+    padding: 7px 15px;
+    background-color: #ff8000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
